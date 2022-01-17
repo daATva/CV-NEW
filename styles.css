@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+    background-color: #eef1e9;
+    color:hsl(220, 33%, 9%);
+
+    font-size: 16px;
+    font-weight:normal;
+    font-family: "Roboto",sans-serif;
+
+    /*font: normal 16px "Roboto",sans-serif;*/
+    
+    /*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif*/
+}
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{  /* наведение на надпись*/
+    text-decoration:underline 2px;
+}
+
+a:active{  /* актив при зажатой кнопке*/
+    color:blue;
+}
+
+a:visited{
+    color:grey;
+}
+
+.gg{
+    width: 190px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35) ;
+}
+
+.info{
+    display:flex;
+    margin-bottom: 20px;
+}
+
+@media(max-width:700px){
+    .info{
+        text-align:center;
+        display:block;
+    }
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    /*text-decoration: underline;*/
+    
+}
+
+.info{
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: 750px;
+    margin:auto;
+    padding-top:30px;
+}
+
+/* .social { */
+ /* background: rgb(235, 218, 218); */
+/* padding: 15px;*/
+/* padding: 15px 40px; */
+/* padding: 10px 10px ;  */
+ /* margin: 30px; */
+ /* margin: 17px 17px ;
+ border: solid 3px  black;
+ border-bottom-style:dotted ;
+ border-top-width:2px ;
+ border-right-color:rgb(221, 161, 223) ;
+ border-left-color:rgb(221, 161, 223) ;
+ border-top-color:rgb(221, 161, 223) ;
+ border-bottom-color:rgb(221, 161, 223) ; */
+/* } */
+
+/* .box-model > div{
+    float: left;
+    background: #000;
+    height:200px;
+    width:25%;
+    border: 4px solid red;
+    box-sizing: border-box;
+} */
+
+
+.bg-yellow{
+    background: #e5ffe7 ;
+}
+
+
+.card {
+    padding: 15px 20px ;
+    background: rgb(184, 211, 184);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-red{
+    background: #ffe5ef ;
+}
+
+.bg-yellow{
+    background: #fff9dc ;
+    
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list{
+    padding:0px 20px;
+}
+.list li{
+    color: #1c1d20;
+    margin-bottom: 10px ;
+}
+
+.table{
+    width:100%;
+}
+
+.table td{
+    padding-bottom:10px;
+}
+
+.table td:nth-child(2) , .table td:nth-child(3){    /*Псевдо серелекторы */
+    color: #86898f;
+}
+
+/* .table tr:nth-child(odd){    
+    background: #96c77f;
+} */
+
+.link-list{
+    list-style: none;
+    padding:0;
+}
+
+.link-list li{
+    margin-bottom:10px;
+    padding-bottom: 1px solid #ccc;
+}
+
+.contact h2{
+    text-align:center;
+    
+}
+
+.form-group label {
+    display:block;
+    font-size: 14px;
+    color:#86898f;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+.form-group input, 
+.form-group textarea {
+    width:100%;
+    box-sizing: border-box;
+    background: transparent;  /*Убирает белый задник от ввода */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding:15px 0 10px;
+    outline:none;
+    font-family: inherit; /*наследует инпут */
+}
+
+.row{
+    display:flex;
+    margin-bottom: 20px;
+    
+}
+
+.row > .form-group{
+    width:50%;
+    margin-right:20px;
+
+}
+
+.btn{
+    background: #111;
+    padding: 15px 20px;
+    color:#fff;
+    border: none;
+    font-family: inherit;
+    cursor:pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;  /*делает прозрачным */
+}
+
+/*Position*/
+
+/* .position{
+    border:4px solid black;
+    margin-top: 40px;
+    padding:20px;
+}
+
+.box{
+    position:static;
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+} */
